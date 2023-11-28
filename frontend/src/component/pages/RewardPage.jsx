@@ -24,7 +24,7 @@ const RewardPage = () => {
         <input
           type="number"
           value={plasticRemittedNum}
-          onChange={(event) => handlePlasticRemit(parseInt(event.target.value))}
+          onChange={(e) => handlePlasticRemit(parseInt(e.target.value))}
         />
       </div>
 
